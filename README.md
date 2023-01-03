@@ -10,6 +10,11 @@
 curl -fsSL https://github.com/Github-Aiko/sign-tls/raw/master/sign.sh | bash -s domain.com
 ```
 
+or 
+
+```
+bash <(curl -ls https://github.com/Github-Aiko/sign-tls/raw/master/install.sh)
+```
 2. After the application is completed, the certificate will be saved to /root/.cert/server.crt /root/.cert/server.key
 
 # Note 
