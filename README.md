@@ -7,7 +7,7 @@
 # use must read
 # Please resolve the node domain name to the node before use, and it can be pinged
 # Please replace domain.com in the command with the node domain name
-curl -fsSL https://github.com/https://github.com/Github-Aiko/sign-tls/raw/master/sign.sh | bash -s domain.com
+curl -fsSL https://github.com/Github-Aiko/sign-tls/raw/master/sign.sh | bash -s domain.com
 ```
 
 2. After the application is completed, the certificate will be saved to /root/.cert/server.crt /root/.cert/server.key
